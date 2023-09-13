@@ -1,0 +1,36 @@
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: rgb(37, 187, 137);
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.calculate-values{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first-row, .second-row,  .third-row{
+   display: flex;
+   gap: 10px;
+
+}
+
+.calculate-values button{
+    background-color: rgb(76, 176, 219);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+
+}
